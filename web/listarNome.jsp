@@ -15,8 +15,8 @@
     <c:forEach var="lista"  items="${listNomes}">
         <li>${lista.nome}
             <fmt:formatDate value="${lista.data}" pattern="dd/MM/yyyy"/>
-            <a href="/Servletpt1/deletaNome?id=${lista.id}"> -Remover</a>
-            <a href="/Servletpt1/editarNome?id=${lista.id}"> -Editar</a>
+            <a href="/webAppp/deletaNome?id=${lista.id}"> -Remover</a>
+            <a href="/webAppp/editarNome?id=${lista.id}"> -Editar</a>
         </li>
     </c:forEach>
 
