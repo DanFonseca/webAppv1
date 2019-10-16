@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>Cadastrar seu br.com.webApp.servletpt1.classes.Nome</title>
+    <title>Cadastrar seu br.com.webApp.servletpt1.modelo.Nome</title>
   </head>
   <body>
 
