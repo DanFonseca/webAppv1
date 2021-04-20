@@ -1,7 +1,7 @@
 package br.com.webApp.servletpt1.servlets;
-import br.com.webApp.servletpt1.classes.exceptions.excpetions;
-import br.com.webApp.servletpt1.classes.BD;
-import br.com.webApp.servletpt1.classes.Nome;
+import br.com.webApp.servletpt1.exceptions.excpetions;
+import br.com.webApp.servletpt1.modelo.BD;
+import br.com.webApp.servletpt1.modelo.Nome;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

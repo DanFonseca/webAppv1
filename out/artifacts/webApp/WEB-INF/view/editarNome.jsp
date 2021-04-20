@@ -20,7 +20,7 @@
         <input type="text" name="nome" value="${nome}">
         <input type="text" name="data" value=" <fmt:formatDate value="${data}" pattern="dd/MM/yyyy"/>">
         <input type="hidden" value="${index}" name="index">
-        <input type="hidden" value="cadastrar" name = "function">
+        <input type="hidden" value="cadastrarNome" name = "function">
 
         <button  type="submit"> Editar </button>
     </form>

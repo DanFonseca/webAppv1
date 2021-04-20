@@ -9,14 +9,15 @@
 </head>
 <body>
 <ul>
-
+    <p>Olá, ${usuarioLogado}</p>
+    <br>
     <c:if test="${empty listNomes}"><h1>Sem nome na lista</h1></c:if>
 
     <c:forEach var="lista"  items="${listNomes}">
         <li>${lista.nome}
             <fmt:formatDate value="${lista.data}" pattern="dd/MM/yyyy"/>
-            <a href="/webApp/controle?function=deletar&id=${lista.id}"> -Remover</a>
-            <a href="/webApp/controle?function=editar&id=${lista.id}"> -Editar</a>
+            <a href="/webApp/controle?function=deletarNome&id=${lista.id}"> -Remover</a>
+            <a href="/webApp/controle?function=editarNome&id=${lista.id}"> -Editar</a>
         </li>
     </c:forEach>
 
